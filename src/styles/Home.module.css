@@ -1,0 +1,805 @@
+.aeroraceshoes {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  padding: 5rem 0 0 0;
+}
+.headerContent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerLeft {
+  width: max-content;
+}
+.headerLeft p {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #000;
+}
+.headerLeft p span {
+  color: #f27200;
+}
+.headerLeft p i {
+  font-size: 2rem;
+}
+.headerRight {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.headerRight div {
+  display: none;
+}
+.headerRight div svg {
+  font-size: 2.5rem;
+}
+.headerRight a {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #f27200;
+  margin: 0 0 0 2.5rem;
+  text-decoration: none;
+}
+.heroSection {
+  width: 100%;
+}
+.heroContent {
+  width: 100%;
+  position: relative;
+}
+.quality1 {
+  width: max-content;
+  padding: 0.5rem 5rem 0 0rem;
+  position: absolute;
+  top: 32.5%;
+  left: 27.5%;
+  z-index: 20;
+  border-top: 3px dotted #000;
+}
+.quality2 {
+  width: max-content;
+  padding: 0.5rem 5rem 0 0rem;
+  position: absolute;
+  top: 65%;
+  left: 26.5%;
+  z-index: 20;
+  border-top: 3px dotted #000;
+}
+.quality3 {
+  width: max-content;
+  padding: 0.5rem 0 0 5rem;
+  position: absolute;
+  top: 55%;
+  right: 7.5%;
+  z-index: 20;
+  border-top: 3px dotted #000;
+  text-align: right;
+}
+.quality1 h6,
+.quality2 h6,
+.quality3 h6 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 0.5rem 0;
+}
+.quality1 p,
+.quality2 p,
+.quality3 p {
+  font-size: 1.5rem;
+  color: #000;
+}
+.heroContent img {
+  width: 100%;
+  object-fit: cover;
+  z-index: 10;
+  position: relative;
+}
+.heroContent h1 {
+  font-size: 4.5rem;
+  line-height: 4rem;
+  position: absolute;
+  top: 6.5rem;
+  left: 6.5rem;
+  z-index: 20;
+  font-weight: 600;
+}
+.heroContent {
+  width: 100%;
+  position: relative;
+}
+.partnersSection {
+  width: 100%;
+}
+.partnersGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1.5rem;
+  background-color: #fff;
+  padding: 1.5rem 0;
+}
+.partnersGridLeft {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.partnersGridLeft img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 10;
+}
+.partnersGridLeft h2 {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+}
+.partnersGridLeft h2 span {
+  font-size: 2rem;
+}
+.partnersGridRight {
+  width: 100%;
+  background-color: #f27200;
+  padding: 10rem 7.5rem 7.5rem 7.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.partnersGridRight h2 {
+  font-size: 5rem;
+  text-align: center;
+  line-height: 5rem;
+  color: #fff;
+  font-weight: 600;
+}
+.partnersGridRight h2 span {
+  color: #000;
+}
+.partnersImgBox {
+  width: 100%;
+  padding: 3.5rem 0;
+  margin: 3.5rem 0;
+  border-top: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partnersImgBox img {
+  width: max-content;
+  height: 1.5rem;
+  object-fit: contain;
+}
+.partnersImgBox div {
+  width: 1px;
+  height: 2rem;
+  background-color: #fff;
+  margin: 0 2.5rem;
+}
+.partnersGridRight p {
+  font-size: 1.65rem;
+  color: #fff;
+  line-height: 2.5rem;
+}
+.performanceSection {
+  width: 100%;
+}
+.performanceGrid {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.performanceGrid > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.performanceDetails {
+  width: 45%;
+  height: 100%;
+  position: relative;
+  z-index: 20;
+  padding: 12.5rem 10rem 12.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.performanceDetails h2 {
+  font-size: 4rem;
+  color: #fff;
+  line-height: 4rem;
+  font-weight: 600;
+}
+.performanceDetails h6 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  width: 100%;
+  text-align: right;
+  margin: 1rem 0 0 0;
+}
+.progBox {
+  width: 100%;
+  margin: 5rem 0 0 0;
+}
+.progBox h5 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+.progBox > p {
+  font-size: 1.25rem;
+  margin: 5rem 0 0 0;
+  font-weight: 600;
+}
+.AwainHiP {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  position: absolute;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  z-index: 20;
+}
+.scienceSection {
+  width: 100%;
+}
+.scienceContentBox {
+  width: 100%;
+  padding: 1.5rem 0;
+  background-color: #fff;
+}
+.scienceContent {
+  width: 100%;
+  position: relative;
+}
+.scienceContent > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.scienceDetails {
+  width: 45%;
+  height: 100%;
+  position: relative;
+  z-index: 20;
+  padding: 10rem 0 10rem 10rem;
+}
+.scienceDetails h3 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 600;
+  color: #fff;
+}
+.scienceDetails p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #000;
+  margin: 2.5rem 0 5rem 0;
+}
+.profileBox {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.profileBox img {
+  width: 15rem;
+  object-fit: contain;
+  margin: 0 0 0 2.5rem;
+}
+.profileBox h6 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #fff;
+}
+.rocketScience {
+  width: 100%;
+  padding: 5rem;
+  background-color: #fff;
+}
+.rocketScience h3 {
+  font-size: 3.5rem;
+  line-height: 4rem;
+  font-weight: 600;
+  color: #000;
+}
+.rocketScience h3 span {
+  color: #f27200;
+}
+.rocketScienceGrid {
+  width: 100%;
+  margin: 5rem 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 3.5rem;
+  padding: 0 5rem;
+}
+.rocketScienceGrid p {
+  font-size: 1.65rem;
+  color: #000;
+  opacity: 0.65;
+}
+.farrierSection {
+  width: 100%;
+  background-color: #f27200;
+  padding: 10rem 7.5rem;
+}
+.farrierSection h3 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #000;
+}
+.farrierSection p {
+  font-size: 2.75rem;
+  font-weight: 400;
+  color: #fff;
+  margin: 1.5rem 0;
+}
+.farrierSection > div {
+  width: 100%;
+  text-align: right;
+}
+.farrierSection > div h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.farrierSection > div h5 {
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+.contactSection {
+  width: 100%;
+}
+.contactGrid {
+  width: 100%;
+  position: relative;
+  padding: 10rem;
+}
+.contactGridBox {
+  width: 100%;
+  padding: 1.5rem 0 0 0;
+  background-color: #fff;
+}
+.contactGrid > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.contactDetails {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 20;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.contactDetails > h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #fff;
+  max-width: 35%;
+}
+.contactOrangeBox {
+  width: max-content;
+  height: max-content;
+  background-color: rgba(242, 113, 0, 0.75);
+  padding: 2.5rem;
+}
+.contactDetails h5 {
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 3rem;
+  color: #fff;
+  font-weight: 600;
+}
+.contactDetails h5 span {
+  color: #000;
+}
+.contactPartnersImgBox {
+  width: 100%;
+  padding: 1.5rem 0 0 0;
+  margin: 1.5rem 0 0 0;
+  border-top: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactPartnersImgBox img {
+  width: max-content;
+  height: 1rem;
+  object-fit: contain;
+}
+.contactPartnersImgBox div {
+  width: 1px;
+  height: 2rem;
+  background-color: #fff;
+  margin: 0 2.5rem;
+}
+.callEmail {
+  width: 100%;
+  position: relative;
+  z-index: 20;
+  margin: 20rem 0 0 0;
+}
+.callEmail p {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: right;
+}
+.footer {
+  width: 100%;
+  padding: 2.5rem 0 15rem 0;
+}
+.footer p {
+  font-size: 1.75rem;
+  text-align: center;
+}
+.headerMob {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  background-color: #f27200;
+}
+.headerMobContent {
+  width: 100%;
+}
+.headerMobHead {
+  width: 100%;
+  padding: 2.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerMobHead p {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+}
+.headerMobHead p span {
+  color: #fff;
+}
+.headerMobHead p i {
+  font-size: 2rem;
+}
+.headerMobHead div svg {
+  font-size: 2.5rem;
+}
+.headerMobBody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 2.5rem 0 0 0;
+}
+.headerMobBody a {
+  width: max-content;
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 500;
+  margin: 0 0 2.5rem 0;
+}
+@media screen and (max-width: 1250px) {
+  .partnersGridRight h2 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .partnersImgBox img {
+    height: 1.25rem;
+  }
+  .partnersImgBox {
+    padding: 2.5rem 0;
+    margin: 2.5rem 0;
+  }
+  .partnersGridRight {
+    padding: 7.5rem 5rem 5rem 5rem;
+  }
+  .partnersGridLeft h2 {
+    font-size: 3.5rem;
+  }
+  .performanceDetails {
+    width: 60%;
+    padding: 10rem 10rem 10rem 0;
+  }
+  .contactGrid > img,
+  .performanceGrid > img,
+  .scienceContent > img {
+    filter: brightness(0.85);
+  }
+  .scienceDetails {
+    width: 55%;
+    padding: 7.5rem 0 7.5rem 7.5rem;
+  }
+  .rocketScienceGrid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2.5rem;
+    padding: 0;
+  }
+  .farrierSection {
+    padding: 7.5rem 5rem;
+  }
+  .contactGrid {
+    padding: 7.5rem;
+  }
+  .contactDetails > h2 {
+    max-width: 50%;
+  }
+  .footer {
+    padding: 2.5rem 0 10rem 0;
+  }
+  .quality1 {
+    padding: 0.5rem 3.5rem 0 0;
+    top: 33.5%;
+    left: 23.5%;
+  }
+  .quality2 {
+    padding: 0.5rem 3.5rem 0 0;
+    top: 65%;
+    left: 23.5%;
+  }
+  .quality3 {
+    padding: 0.5rem 0 0 3.5rem;
+    top: 57.5%;
+    right: 5%;
+  }
+  .heroContent h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    top: 3.5rem;
+    left: 3.5rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .heroContent h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    top: 2.5rem;
+    left: 2.5rem;
+  }
+  .quality1 {
+    padding: 0.5rem 2.5rem 0 0;
+    left: 20%;
+  }
+  .quality2 {
+    padding: 0.5rem 2.5rem 0 0;
+    left: 20%;
+  }
+  .quality3 {
+    padding: 0.5rem 0 0 2.5rem;
+    right: 2%;
+  }
+  .partnersGrid {
+    grid-template-columns: 1fr;
+  }
+  .partnersGridLeft img {
+    height: 50rem;
+  }
+  .partnersGridRight {
+    padding: 5rem;
+  }
+  .performanceDetails {
+    width: 100%;
+    padding: 7.5rem;
+  }
+  .scienceDetails {
+    width: 100%;
+    padding: 7.5rem;
+  }
+  .scienceDetails p {
+    color: #fff;
+  }
+  .headerRight a {
+    display: none;
+  }
+  .headerRight div {
+    display: block;
+  }
+  .contactGrid {
+    padding: 5rem;
+  }
+  .contactDetails {
+    flex-direction: column;
+  }
+  .contactDetails > h2 {
+    font-size: 2.5rem;
+    margin: 0 0 5rem 0;
+    max-width: 100%;
+    text-align: center;
+  }
+  .contactOrangeBox {
+    width: 100%;
+  }
+  .callEmail p {
+    text-align: center;
+  }
+  .partnersGridLeft img {
+    height: 25rem;
+  }
+  .footer {
+    padding: 2.5rem 2.5rem 5rem 2.5rem;
+  }
+  .header {
+    padding: 2.5rem 0;
+  }
+  .headerLeft p {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .heroContent {
+    padding: 25rem 2.5rem 2.5rem 2.5rem;
+  }
+  .quality1 {
+    position: relative;
+    top: unset;
+    left: unset;
+    padding: 2.5rem;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin: 0 0 2.5rem 0;
+  }
+  .quality2 {
+    position: relative;
+    top: unset;
+    left: unset;
+    padding: 2.5rem;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin: 0 0 2.5rem 0;
+  }
+  .quality3 {
+    position: relative;
+    top: unset;
+    right: unset;
+    text-align: left;
+    padding: 2.5rem;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+  }
+  .heroContent h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .quality1 h6,
+  .quality2 h6,
+  .quality3 h6 {
+    font-size: 1.75rem;
+    margin: 0;
+  }
+  .quality1 p,
+  .quality2 p,
+  .quality3 p {
+    color: #fff;
+    opacity: 0.75;
+  }
+  .heroContent img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    object-fit: cover;
+  }
+  .headerLeft p,
+  .headerMobHead p,
+  .headerRight div svg,
+  .headerMobHead div svg {
+    font-size: 2.5rem;
+  }
+  .header,
+  .headerMobHead {
+    padding: 1.5rem 0;
+  }
+
+  .contactGrid {
+    padding: 2.5rem;
+  }
+  .farrierSection {
+    padding: 2.5rem;
+  }
+  .callEmail p {
+    font-size: 1.5rem;
+  }
+  .contactOrangeBox {
+    padding: 2rem;
+  }
+  .footer {
+    padding: 2.5rem 0;
+  }
+  .farrierSection h3 {
+    font-size: 2.5rem;
+  }
+  .farrierSection p {
+    font-size: 2rem;
+    margin: 2.5rem 0;
+  }
+  .farrierSection > div h4 {
+    font-size: 2rem;
+  }
+  .rocketScienceGrid {
+    grid-template-columns: 1fr;
+    margin: 2.5rem 0 0 0;
+  }
+  .rocketScience {
+    padding: 2.5rem;
+  }
+  .rocketScience h3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .scienceDetails {
+    padding: 2.5rem;
+  }
+  .scienceDetails h3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .profileBox {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .profileBox img {
+    width: 12.5rem;
+    margin: 0 0 1rem 0;
+  }
+  .profileBox h6 {
+    font-size: 1.35rem;
+  }
+  .performanceDetails {
+    padding: 2.5rem;
+  }
+  .performanceDetails h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .AwainHiP {
+    display: none;
+  }
+  .partnersGridRight {
+    padding: 2.5rem;
+  }
+  .partnersGridRight h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
